@@ -12,8 +12,8 @@ class Program
         //ReadFile.readFile();
         //WriteFile.writeFile();
         //TaskList.taskList();
-        FileWorldCounter.fileWorldCounter();
-
+        //FileWorldCounter.fileWorldCounter();
+        LinearSearch.linearSearch();
 
         Console.WriteLine();
     }
