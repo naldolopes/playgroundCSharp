@@ -45,7 +45,7 @@ class TaskList
             string[] lines = File.ReadAllLines(path);
             foreach (string line in lines)
             {
-                Console.WriteLine("{0} - {1}", counter, line);
+                Console.WriteLine($"{counter} - {line}");
                 counter++;
             }
         }
