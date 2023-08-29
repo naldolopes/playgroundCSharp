@@ -7,7 +7,7 @@ class VectorSearch
         string[] names = { "John", "Peter", "Mary", "George", "Paul" };
 
         Console.WriteLine("Enter a name to search for:");
-        string name = Console.ReadLine();
+        string name = Console.ReadLine() ?? string.Empty;
 
         for (int i = 0; i < names.Length; i++)
         {

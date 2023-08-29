@@ -6,7 +6,7 @@ class WriteFile
     public static void writeFile()
     {
         Console.WriteLine("Por favor, insira um texto:");
-        string userInput = Console.ReadLine();
+        string userInput = Console.ReadLine() ?? string.Empty;
 
         Console.WriteLine("Digite 's' para sobrescrever ou 'a' para adicionar:");
         char choice = Console.ReadKey().KeyChar;

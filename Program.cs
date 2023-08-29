@@ -11,6 +11,8 @@ class Program
         //VectorSearch.vectorSearch();
         //ReadFile.readFile();
         //WriteFile.writeFile();
+        TaskList.taskList();
+
 
         Console.WriteLine();
     }
