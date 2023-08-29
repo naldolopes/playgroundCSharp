@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 class ReadFile
 {
     static public void readFile()

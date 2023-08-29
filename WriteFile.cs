@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 class WriteFile
 {
     public static void writeFile()
