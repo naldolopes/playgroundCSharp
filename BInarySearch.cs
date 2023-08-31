@@ -39,7 +39,6 @@ class BinarySearch
         int end = numbers.Length - 1; // end of the array
         int interactions = 1;        // interactions counter
 
-        // search the number using binary search
         // Start the binary search
         while (start <= end)
         {
