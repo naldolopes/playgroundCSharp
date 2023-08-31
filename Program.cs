@@ -13,7 +13,8 @@ class Program
         //WriteFile.writeFile();
         //TaskList.taskList();
         //FileWorldCounter.fileWorldCounter();
-        LinearSearch.linearSearch();
+        //LinearSearch.linearSearch();
+        BinarySearch.binarySearch();
 
         Console.WriteLine();
     }
