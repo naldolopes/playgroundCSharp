@@ -3,6 +3,8 @@ class BinarySearch
 {
     static public void binarySearch()
     {
+        Console.Clear(); // clear the console
+
         // create an array of 10 positions
         int[] numbers = new int[10];
 
@@ -34,6 +36,8 @@ class BinarySearch
         // ask to user give the number to search
         Console.Write("Type the number to search: ");
         int valueToSearch = int.Parse(Console.ReadLine() ?? string.Empty);
+        // jump a line
+        Console.WriteLine("\n");
 
         int start = 0;                // start of the array
         int end = numbers.Length - 1; // end of the array
@@ -49,6 +53,8 @@ class BinarySearch
             if (numbers[middle] == valueToSearch)
             {
                 Console.WriteLine($"Interactions: {interactions}"); // show the interactions counter
+                // jump a line
+                Console.WriteLine("\n");
                 Console.WriteLine($"!!! The number {valueToSearch} was found at position {middle} !!!"); // show the message
                 break; // break the loop
             }
